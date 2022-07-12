@@ -14,7 +14,7 @@ describe('subtract', () => {
   test('subtraction between two numbers', () => {
     expect(calculator.subtract(4, 1)).toBe(3);
     expect(calculator.subtract(55, 5)).toBe(50);
-    expect(calculator.subtract(44,49)).toBe(-5);
+    expect(calculator.subtract(44, 49)).toBe(-5);
   });
 });
 

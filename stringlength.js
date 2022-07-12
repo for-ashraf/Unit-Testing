@@ -1,7 +1,9 @@
 function stringLength(myString) {
-  if (myString.length > 0 && myString.length <= 10)
+  if (myString.length > 0 && myString.length <= 10) {
     return true;
-  else
+  }
+  else {
     return false;
+  }
 }
 module.exports = stringLength;
